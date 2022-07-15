@@ -1,0 +1,23 @@
+.portfolio {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 50px 100px 70px;
+  @media (max-width: 992px) { 
+    &.container {
+      max-width: none;
+    } 
+  }
+  &__title {
+    margin-bottom: 48px;
+  }
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 992px) { 
+  .photos__item:last-child {
+    display: none;
+  }    
+}

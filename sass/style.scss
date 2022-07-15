@@ -1,0 +1,89 @@
+
+input, button, textarea {
+  outline: none;
+  border: none;
+}
+
+
+body {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: Roboto;
+  background-color: #f2f2f2;
+}
+.main {
+  background-color: #f2f2f2;
+  padding: 48px 0;
+  @media (max-width: 992px) {
+    padding-top: 0;
+    padding-bottom: 25px;
+  }
+}
+
+.container { 
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  @media (max-width: 992px) {
+    max-width: 880px;
+  }
+ }
+
+ .container_s {
+    max-width: 1145px;
+    width: 100%;
+    margin: 0 auto;
+    @media (max-width: 992px) {
+      max-width: 880px;
+    }
+ }
+
+ .s-block {
+   display: block;
+ }
+
+ .title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #2F2F51;
+}
+
+.controls__button {
+  padding: 13px 24px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+  outline: none;
+  background: none;
+  border-radius: 3px;
+}
+
+.controls__button:focus {
+  color: #fff;
+  background: #ef7f04;
+}
+
+.controls__item:not(:last-child) {
+  margin-right: 5px;
+}
+
+ * {
+  box-sizing: border-box;
+}
+
+@import"_header.scss";
+@import"_advantages.scss";
+@import"_services.scss";
+@import"_production.scss";
+@import"_guaranties.scss";
+@import"_about.scss";
+@import"_portfolio.scss";
+@import"_faq.scss";
+@import"_contacts.scss";
+@import"_footer.scss";
+

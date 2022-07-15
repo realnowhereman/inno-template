@@ -1,0 +1,71 @@
+.guaranties {
+  margin-bottom: 96px;
+}
+
+.guaranties__main {
+  min-height: 436px;
+  background-image: url(../img/guaranties/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 50px 40px;
+  // padding-top: 36px;
+  // padding-right: 40px;
+  // padding-bottom: 50px;
+  // padding-left:40px;
+  margin-bottom: 44px;
+}
+
+.guaranties__title {
+  text-align: center;
+  margin-bottom: 55px;
+  img {
+    width: 300px;
+  }
+}
+
+.guaranties__body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  // margin: 0 -25px;
+  @media (max-width: 992px) {
+    justify-content: center;  
+  }
+}
+
+.guaranties__item {
+  text-align: center;
+//   max-width: 200px;
+  // padding: 0 25px;
+  flex: 0 1 20%;
+  @media (max-width: 992px) {
+    flex: 0 1 33%;
+    margin-bottom: 90px;
+    &:nth-child(4), &:nth-child(5) {
+        margin-bottom: 0;
+    }
+  }
+}
+
+.guarantee__image {
+  margin-bottom: 30px;
+  height: 97px;
+}
+
+.guarantee__text {
+  line-height: 19px;
+}
+
+.guaranties__button {
+  display: flex;
+  align-items: center;
+  background-color: #3B3A63;
+  color: #fff;
+  border-radius: 3px;
+  margin: 0 auto;
+  padding: 16px 54px 16px 34px;
+  img {
+    margin-right: 20px;
+  }
+}

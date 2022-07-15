@@ -1,0 +1,89 @@
+.services {
+    font-family: Roboto;
+    color: #2F2F51;
+    margin-bottom: 103px;
+}
+
+.cards {
+  &__row {
+    display: flex;
+    margin: 0 -6px;
+    @media (max-width: 992px) { 
+       display: block;
+       max-width: 596px;
+       margin: 0 auto; 
+
+    }
+  }
+  & > li:not(:last-child) {
+    margin-bottom: 12px;
+  }
+  &__item {
+    flex: 0 1 50%;
+    margin: 0 6px;
+    @media (max-width: 992px) {
+        margin-bottom: 38px;
+    }
+}
+
+.card {
+    background-size: cover;
+    border-radius: 3px;
+    height: 268px;
+    padding-top: 48px;
+    padding-left: 52px;
+  }
+}
+
+.services__title {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+
+.title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.card {
+  &__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+
+  &__icon {
+    margin-right: 20px;
+}
+
+  &__title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+
+
+.cards__item_card1 {
+    background-image: url(../img/services/service_1.jpg);
+}
+
+.cards__item_card2 {
+    background-image: url(../img/services/service_2.jpg);
+}
+
+.cards__item_card3 {
+    background-image: url(../img/services/service_3.jpg);
+}
+
+.cards__item_card4 {
+    background-image: url(../img/services/service_4.jpg);
+}
